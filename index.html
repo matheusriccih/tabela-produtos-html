@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Exercício prático de tabela responsiva em HTML e CSS." />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tabela de Produtos | HTML e CSS</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="page-header"><p class="eyebrow">Exercício prático · HTML e CSS</p><h1>Tabela de produtos</h1><p>Exemplo de uma tabela semântica, responsiva e legível para organizar um catálogo simples.</p></header>
+      <section class="table-card" aria-labelledby="products-title">
+        <div class="table-heading"><h2 id="products-title">Ofertas da semana</h2><span>Dados ilustrativos</span></div>
+        <div class="table-wrapper"><table>
+          <caption>Produtos disponíveis e condições promocionais.</caption>
+          <thead><tr><th scope="col">Produto</th><th scope="col">Categoria</th><th scope="col">Estoque</th><th scope="col">Preço</th><th scope="col">Oferta</th></tr></thead>
+          <tbody>
+            <tr><td>Teclado mecânico</td><td>Periféricos</td><td>12 unidades</td><td>R$ 249,90</td><td><span class="tag">15% off</span></td></tr>
+            <tr><td>Mouse sem fio</td><td>Periféricos</td><td>20 unidades</td><td>R$ 119,90</td><td><span class="tag">10% off</span></td></tr>
+            <tr><td>Webcam Full HD</td><td>Vídeo</td><td>8 unidades</td><td>R$ 189,90</td><td><span class="tag neutral">Preço regular</span></td></tr>
+            <tr><td>Suporte para notebook</td><td>Acessórios</td><td>16 unidades</td><td>R$ 89,90</td><td><span class="tag">20% off</span></td></tr>
+          </tbody>
+          <tfoot><tr><td colspan="5">4 produtos cadastrados · condições ilustrativas</td></tr></tfoot>
+        </table></div>
+      </section>
+    </main>
+  </body>
+</html>
