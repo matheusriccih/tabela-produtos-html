@@ -2,6 +2,8 @@
 
 Exercício prático criado para estudar a estrutura de tabelas HTML, estilização com CSS e adaptação para telas menores.
 
+**Demo:** [matheusriccih.github.io/tabela-produtos-html](https://matheusriccih.github.io/tabela-produtos-html/)
+
 ## O que foi praticado
 
 - Uso semântico de `table`, `caption`, `thead`, `tbody`, `tfoot`, `th` e `td`
@@ -11,7 +13,7 @@ Exercício prático criado para estudar a estrutura de tabelas HTML, estilizaç�
 
 ## Como visualizar
 
-Clone o repositório e abra `index.html` no navegador. Não há dependências ou etapa de instalação.
+Acesse a demo acima ou clone o repositório e abra `index.html` no navegador. Não há dependências ou etapa de instalação.
 
 ## Tecnologias
 
